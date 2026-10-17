@@ -21,6 +21,12 @@ mvn test
 
 First run downloads Chromium.
 
+## GitHub Actions
+
+Workflow file: [`.github/workflows/playwright.yml`](.github/workflows/playwright.yml)
+
+On push to `main`, pull request, or **Run workflow**, it opens a headless browser against https://ecomcicid.netlify.app and runs `mvn test`.
+
 ## Classes
 
 | Class | Cases |
